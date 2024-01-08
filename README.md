@@ -6,12 +6,10 @@ This repository contains code for training an image classifier using a Support V
 
 ## Contents
 
-- **`train_classifier.py`**: Python script for training the SVC model. It reads images from the 'train1' directory, extracts HOG features, and performs classification.
+- **`train_classifier.ipynb`**: Python script for training the SVC model. It reads images from the 'train1' directory, extracts HOG features, and performs classification and also test the model and generates the submision csv.
 
 - **`extract_hog_features`**: Function to extract HOG features from a given image.
 
 - **`SVC_model.sav`**: The saved SVC model file after training.
-
-- **`test_classifier.py`**: Python script for testing the trained SVC model on a test dataset. It loads the saved model and makes predictions on images in the 'test1' directory.
 
 - **`submission.csv`**: The output file containing predictions for the test dataset.
